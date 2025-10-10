@@ -1,0 +1,6 @@
+- [ ] Update script.js: Add translations object with Arabic and English texts, add language switching logic, update cart display and alerts to use translations.
+- [ ] Update index.html: Add language toggle button in header, add data-key attributes to translatable elements.
+- [ ] Update menu.html: Add language toggle button, add data-key to all coffee/drink names, descriptions, buttons, etc.
+- [ ] Update cart.html: Add language toggle button, add data-key to headings, buttons, placeholders.
+- [ ] Update styles.css: Add styles for the language toggle button.
+- [ ] Test the language switching functionality.
