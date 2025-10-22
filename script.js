@@ -309,7 +309,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             const encodedMessage = encodeURIComponent(message);
-            const whatsappURL = `https://wa.me/201226717236?text=${encodedMessage}`;
+            const whatsappURL = `https://wa.me/201274446330?text=${encodedMessage}`;
             window.open(whatsappURL, '_blank');
 
             // Clear cart after order
@@ -327,4 +327,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize language
     setLanguage(currentLang);
 });
+
 
