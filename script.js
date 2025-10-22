@@ -1,4 +1,4 @@
-let cart = JSON.parse(localStorage.getItem('cart')) || [];
+let cart = JSON.parse(localStorage.getItem('coffee_cart')) || [];
 let currentLang = localStorage.getItem('language') || 'ar';
 
 // Translations object
@@ -137,7 +137,7 @@ const translations = {
 
 // Function to save cart to localStorage
 function saveCart() {
-    localStorage.setItem('cart', JSON.stringify(cart));
+    localStorage.setItem('coffee_cart', JSON.stringify(cart));
 }
 
 // Function to set language
@@ -327,3 +327,4 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize language
     setLanguage(currentLang);
 });
+
